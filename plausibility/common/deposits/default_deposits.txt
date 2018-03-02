@@ -1,0 +1,172 @@
+d_null_deposit = {
+	is_null = yes
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_default_energy_deposit = {
+	resources = { energy = 1 }
+	station = shipclass_mining_station 
+	orbital_weight = {
+		weight = 1
+	}
+	drop_weight = {
+		weight = 10 # vanilla's d_null_deposit weight is 50, thus 50 div number of resources (energy, minerals, physics, society, engineering) equals 10
+		modifier = {
+			weight = 0
+			planet = {
+				is_star = yes
+			}
+		}
+		modifier = {
+			weight = 7
+			planet = {
+				is_planet_class = pc_gaia
+			}
+		}		
+		modifier = {
+			weight = 20
+			planet = {
+				OR = {
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_nuked
+				}
+			}
+		}
+	}
+}
+
+d_default_mineral_deposit = {
+	resources = { minerals = 1 }
+	station = shipclass_mining_station 
+	orbital_weight = {
+		weight = 1
+	}
+	drop_weight = {
+		weight = 10
+		modifier = {
+			weight = 0
+			planet = {
+				is_star = yes
+			}
+		}
+		modifier = {
+			weight = 7
+			planet = {
+				is_planet_class = pc_gaia
+			}
+		}		
+		modifier = {
+			weight = 20
+			planet = {
+				OR = {
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_nuked
+				}
+			}
+		}
+	}
+}
+
+d_default_physics_deposit = {
+	resources = { physics_research = 1 }
+	station = shipclass_research_station 
+	orbital_weight = {
+		weight = 1
+	}
+	drop_weight = {
+		weight = 10
+		modifier = {
+			weight = 0
+			planet = {
+				is_star = yes
+			}
+		}
+		modifier = {
+			weight = 7
+			planet = {
+				is_planet_class = pc_gaia
+			}
+		}		
+		modifier = {
+			weight = 20
+			planet = {
+				OR = {
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_nuked
+				}
+			}
+		}
+	}
+}
+
+d_default_society_deposit = {
+	resources = { society_research = 1 }
+	station = shipclass_research_station 
+	orbital_weight = {
+		weight = 1
+	}
+	drop_weight = {
+		weight = 10
+		modifier = {
+			weight = 0
+			planet = {
+				is_star = yes
+			}
+		}
+		modifier = {
+			weight = 7
+			planet = {
+				is_planet_class = pc_gaia
+			}
+		}		
+		modifier = {
+			weight = 20
+			planet = {
+				OR = {
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_nuked
+				}
+			}
+		}
+	}
+}
+
+d_default_engineering_deposit = {
+	resources = { engineering_research = 1 }
+	station = shipclass_research_station 
+	orbital_weight = {
+		weight = 1
+	}
+	drop_weight = {
+		weight = 10
+		modifier = {
+			weight = 0
+			planet = {
+				is_star = yes
+			}
+		}
+		modifier = {
+			weight = 7
+			planet = {
+				is_planet_class = pc_gaia
+			}
+		}		
+		modifier = {
+			weight = 20
+			planet = {
+				OR = {
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_nuked
+				}
+			}
+		}
+	}
+}
+
