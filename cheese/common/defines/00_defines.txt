@@ -473,7 +473,7 @@
 		FLEET_MIN_TI_CLEAR_RADIUS = 10			# min radius for clearing terra incognita will use the highest of this and sensor range
 		TI_TEXTURE_SIZE = 256					# size of the internal terra incognita texture high resolutions can cause stuttering and will increase memory demand and save file size.
 		TI_CORE_SCALE = 0.9
-		START_YEAR = 1 ### plausibility mod
+		START_YEAR = 1 ### cheese mod
 		MIN_ANOMALIES = -1
 		MAX_ANOMALIES = 1
 		SYSTEM_INNER_RADIUS_OFFSET = 30
