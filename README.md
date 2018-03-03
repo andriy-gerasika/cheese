@@ -1,5 +1,5 @@
-# plausibility
-a simple mod for Stellaris that fixes confusions
+# cheese
+a simple mod for Stellaris that fixes confusions and removes unnecessary limitations
 
 change notes
 1. start year is 1 of galaxy era (GE)

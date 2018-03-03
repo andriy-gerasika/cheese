@@ -1,5 +1,5 @@
-name="Plausibility"
-path="mod/plausibility"
+name="Cheese"
+path="mod/cheese"
 tags={
 	"Gameplay"
 }
