@@ -521,7 +521,7 @@
 		LEADER_EXPERIENCE_INIT_RAND_MOD 	= 0.35
 		LEADER_EXPERIENCE_INIT_ADD 			= 0.25
 		LEADER_BASE_SKILL_CAP	= 5
-		LEADER_MAX_SKILL_CAP	= 10
+		LEADER_MAX_SKILL_CAP	= 100 ### cheese mod ###
 		LEADER_SKILL_MIN		= 1
 		LEADER_EXP_MIN			= 200
 		LEADER_EXP_MAX			= 400
@@ -872,11 +872,11 @@
 		COMMAND_LIMIT_MAX										= 200	# Max value of Command Limit
 		COMMAND_LIMIT_BASE 										= 20	# Base value of Command Limit
 		
-		NAVAL_CAPACITY_MAX										= 1000	# Max value of Naval Capacity
+		NAVAL_CAPACITY_MAX										= 10000 ### cheese mod ###	# Max value of Naval Capacity
 		NAVAL_CAPACITY_BASE 									= 20	# Base value of Naval Capacity
 		NAVAL_CAPACITY_POP_MULT									= 0.10	# Mult value of Naval Capacity for each Pop
 		
-		STARBASE_CAPACITY_MAX									= 50	# Max value of Starbase Capacity
+		STARBASE_CAPACITY_MAX									= 500 ### cheese mod ###	# Max value of Starbase Capacity
 		STARBASE_CAPACITY_BASE 									= 3		# Base value of Starbase Capacity
 		STARBASE_CAPACITY_SYSTEM_MULT							= 0.05	# Mult value of Starbase Capacity for each owned system	
 		STARBASE_CAPACITY_POP_MULT								= 0.025	# Mult value of Starbase Capacity for each Pop	
