@@ -432,7 +432,7 @@
 		SHIPYARD_DISTANCE_DIV_FACTOR = 2.0		# The lower this is, the more reinforce tends to use the closest shipyard(s) available. Strongly NOT recommended to have this <1
 		SHIPYARD_REINFORCE_MAX_DISTANCE = 1000	# Shipyards further away than this from the closest shipyard will not be considered for reinforcements
 	
-		LIMITED_EXPLORATION = 1		# If set to 1, only science ships with scientists can enter unvisited systems
+		LIMITED_EXPLORATION = 0		# If set to 1, only science ships with scientists can enter unvisited systems
 	
 		RANDOM_START_DISTANCE = 75		# The minimum distance at which empires will spawn from each other in random start
 	
